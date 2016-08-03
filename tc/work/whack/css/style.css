@@ -1,0 +1,15 @@
+body{
+	background-image: url("../images/landscape.jpg");
+background-size: 100% auto; 
+}
+
+#mole{
+	/*RESIZE THE MOLE*/
+	width: 100px;
+	height: 100px;
+
+	/*POSITION THE MOLE*/
+	position: absolute;
+	top: 90px;
+	left: 700px;
+}

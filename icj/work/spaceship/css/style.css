@@ -1,0 +1,12 @@
+body {
+  overflow: hidden;
+  cursor: none;
+}
+#score{
+	position: absolute;
+	z-index: 1;
+	top: 10px;
+	left: 10px;
+    color: white;
+    font-size: 40px;
+}

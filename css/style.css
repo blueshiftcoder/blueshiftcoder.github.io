@@ -1,0 +1,98 @@
+@font-face {
+  font-family: BrownRegular;
+  src: url('../fonts/BrownStd-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/BrownStd-Regular.otf')  format('opentype'),
+       url('../fonts/BrownStd-Regular.woff') format('woff'), 
+       url('../fonts/BrownStd-Regular.ttf')  format('truetype'), 
+       url('../fonts/BrownStd-Regular.svg#BrownStd-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: BrownLight;
+  src: url('../fonts/BrownStd-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/BrownStd-Light.otf')  format('opentype'),
+       url('../fonts/BrownStd-Light.woff') format('woff'), 
+       url('../fonts/BrownStd-Light.ttf')  format('truetype'), 
+       url('../fonts/BrownStd-Light.svg#BrownStd-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: BrownThin;
+  src: url('../fonts/BrownStd-Thin.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/BrownStd-Thin.otf')  format('opentype'),
+       url('../fonts/BrownStd-Thin.woff') format('woff'), 
+       url('../fonts/BrownStd-Thin.ttf')  format('truetype'), 
+       url('../fonts/BrownStd-Thin.svg#BrownStd-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: BrownRegular;
+  padding-top: 1em;
+  background: rgba(79,238,199,1);
+  background: -moz-linear-gradient(left, rgba(79,238,199,1) 0%, rgba(55,56,190,1) 50%, rgba(55,56,190,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(79,238,199,1)), color-stop(50%, rgba(55,56,190,1)), color-stop(100%, rgba(55,56,190,1)));
+  background: -webkit-linear-gradient(left, rgba(79,238,199,1) 0%, rgba(55,56,190,1) 50%, rgba(55,56,190,1) 100%);
+  background: -o-linear-gradient(left, rgba(79,238,199,1) 0%, rgba(55,56,190,1) 50%, rgba(55,56,190,1) 100%);
+  background: -ms-linear-gradient(left, rgba(79,238,199,1) 0%, rgba(55,56,190,1) 50%, rgba(55,56,190,1) 100%);
+  background: linear-gradient(to right, rgba(79,238,199,1) 0%, rgba(55,56,190,1) 50%, rgba(55,56,190,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4feec6', endColorstr='#2f4a9d', GradientType=1 );
+}
+
+::selection {
+  background: rgb(79, 238, 199); /* WebKit/Blink Browsers */
+}
+
+.white {
+  color: white;
+}
+
+.thin {
+  font-family: BrownThin;
+}
+
+.light {
+  font-family: BrownLight;
+}
+
+.small-bottom-margin {
+  margin-bottom: 2.5em;
+}
+
+#header {
+  margin-bottom: 4em;
+}
+
+img.logo {
+  height: 8em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#student-list .student,
+#work-list .work {
+  margin-bottom: 1em;
+}
+
+#student-list .student a,
+#work-list .work a {
+  font-size: 1.5em;
+}
+
+#student-list .student a:hover,
+#work-list .work a:hover {
+  background: none;
+  padding: 12px 22px;
+  border: 2px solid rgb(79, 238, 199);
+  color: rgb(79, 238, 199);
+  text-decoration: none;
+}
+
